@@ -5,26 +5,32 @@ function activeClock() {
 	var m = currentTime.getMinutes ();
 	var s = currentTime.getSeconds ();
 	var t = setTimeout(activeClock,1000);
-	var ampm = "AM"
+	var ampm = "AM";
 
 
 	if (h == 0) {
 		h = 12;
-	} else if (h > 12){
+	} else if (h > 12) {
 		h = h - 12;
-		ampm = "PM";
-	}
+		ampm = "PM"; 
+	} 
 
 	if (h < 10) {
-		h = "0" + h
+		h = "0" + h;
+	} else {
+		h;
 	}
 
 	if (m < 10) {
-		m = "0" + m
+		m = "0" + m;
+	} else {
+		m;
 	}
 
 	if (s < 10) {
-		s = "0" + s
+		s = "0" + s;
+	} else {
+		s
 	}
 
 var clockDisplay = document.getElementById('clock');
