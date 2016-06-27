@@ -1,0 +1,12 @@
+.clock_style {
+	font-style: 'Elephant';
+	color: #2eb8b8;
+	font-size: 30px;
+	background-color: black;
+	width:300px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	left:510px;
+	border: dotted 3px #2eb8b8;
+}
